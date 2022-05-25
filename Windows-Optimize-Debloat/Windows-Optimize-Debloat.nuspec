@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+    <metadata>
+        <id>Windows-Optimize-Debloat</id>
+        <version>1.0.0</version>
+        <packageSourceUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat</packageSourceUrl>
+        <owners>SimeonOnSecurity</owners>
+        <title>Windows-Optimize-Debloat - Optimize and Debloat Windows 10 and Windows 11 Deployments</title>
+        <authors>SimeonOnSecurity</authors>
+        <projectUrl>https://simeononsecurity.ch/github/windows-optimize-harden-debloat/</projectUrl>
+        <copyright>2022 SimeonOnSecurity</copyright>
+        <licenseUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat/blob/main/LICENSE</licenseUrl>
+        <iconUrl>https://avatars.githubusercontent.com/u/4913771?s=64</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <projectSourceUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat</projectSourceUrl>
+        <docsUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat</docsUrl>
+        <bugTrackerUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat/issues</bugTrackerUrl>
+        <tags>microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script</tags>
+        <summary>Windows 10 and 11 is are invasive and insecure operating system out of the box. Organizations like Microsoft, PrivacyTools.io, and others have recommended configuration changes to optimize and debloat the Windows 10 operating system.</summary>
+        <description>
+            Windows 10 and 11 is are invasive and insecure operating system out of the box. Organizations like Microsoft, PrivacyTools.io, and others have recommended configuration changes to optimize and debloat the Windows 10 operating system. These changes are include blocking telemetry, deleting logs, and removing bloatware to name a few. This script aims to automate the configurations recommended by those organizations.    
+    </description>
+        <releaseNotes>
+            [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
+        </releaseNotes>
+        <dependencies>
+            <dependency id="chocolatey" version="0.9.8.20" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
+</package>

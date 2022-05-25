@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+    <metadata>
+        <id>Standalone-Windows-STIG-Script</id>
+        <version>1.0.0</version>
+        <packageSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</packageSourceUrl>
+        <owners>SimeonOnSecurity</owners>
+        <title>Standalone-Windows-STIG-Script - Completely STIG Standalone Windows Systems to DoD STIG/SRG Requirements and NSACyber Guidance. </title>
+        <authors>SimeonOnSecurity</authors>
+        <projectUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</projectUrl>
+        <copyright>2022 SimeonOnSecurity</copyright>
+        <licenseUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script/blob/main/LICENSE</licenseUrl>
+        <iconUrl>https://avatars.githubusercontent.com/u/4913771?s=64</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <projectSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</projectSourceUrl>
+        <docsUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</docsUrl>
+        <bugTrackerUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script/issues</bugTrackerUrl>
+        <tags>microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script microsoft enterprise automation powershell mil compliance windows10 cyber stig nsacyber stigs hardware-requirements standalone-systems srgs-applied </tags>
+        <summary>Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG</summary>
+        <description>
+            Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG. Totalling over 1000 configuration changes on a typical deployment and an average of 5 minutes per change equaling 3.5 days worth of work. This script aims to speed up that process significantly.    
+    </description>
+        <releaseNotes>
+            [Standalone-Windows-STIG-Script](https://github.com/simeononsecurity/Standalone-Windows-STIG-Script)
+        </releaseNotes>
+        <dependencies>
+            <dependency id="chocolatey" version="0.9.8.20" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
+</package>
