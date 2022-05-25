@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 
 $targetPath = Join-Path -Path $Env:chocolateyPackageFolder -ChildPath tools
-$url = "https://codeload.github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/zip/refs/heads/master"
+$url = "https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/archive/refs/heads/master.zip"
 $arguments = @{
     packageName    = 'Windows-Optimize-Harden-Debloat'
     #softwareName  = 'Windows-Optimize-Harden-Debloat*'
