@@ -8,12 +8,12 @@ jobs:
         name: Checkout
         uses: actions/checkout@v3
       -
-        name: Choco pack
+        name: Choco pack Standalone-Windows-STIG
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: pack (Get-ChildItem -Recurse *.nuspec).FullName
+          args: pack ./Standalone-Windows-STIG/Standalone-Windows-STIG.nuspec
       -
-        name: Choco push
+        name: Choco push Standalone-Windows-STIG
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push (Get-ChildItem -Recurse *.nupkg).FullName
+          args: push ./Standalone-Windows-STIG/Standalone-Windows-STIG*.nupkg
