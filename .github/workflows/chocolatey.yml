@@ -1,0 +1,20 @@
+on: push
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v3
+      -
+        name: Choco pack
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: pack
+      -
+        name: Choco push
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: push
+       
