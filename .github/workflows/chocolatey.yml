@@ -11,9 +11,9 @@ jobs:
         name: Choco pack
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: pack ./*/*.nuspec
+          args: pack (Get-ChildItem -Recurse *.nuspec).FullName
       -
         name: Choco push
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push ./*/*.nupkg
+          args: push (Get-ChildItem -Recurse *.nupkg).FullName
