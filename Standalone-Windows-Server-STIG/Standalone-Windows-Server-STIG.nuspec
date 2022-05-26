@@ -5,11 +5,11 @@
         <version>1.0.0</version>
         <packageSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</packageSourceUrl>
         <owners>SimeonOnSecurity</owners>
-        <title>Standalone-Windows-Server-STIG-Script - Completely STIG Standalone Windows Server Systems to DoD STIG/SRG Requirements and NSACyber Guidance. </title>
+        <title>Standalone-Windows-Server-STIG - Completely STIG Standalone Windows Server Systems to DoD STIG/SRG Requirements and NSACyber Guidance. </title>
         <authors>SimeonOnSecurity</authors>
         <projectUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</projectUrl>
         <copyright>2022 SimeonOnSecurity</copyright>
-        <licenseUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script/blob/main/LICENSE</licenseUrl>
+        <licenseUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script/blob/master/LICENSE</licenseUrl>
         <iconUrl>https://avatars.githubusercontent.com/u/4913771?s=64</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <projectSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</projectSourceUrl>
