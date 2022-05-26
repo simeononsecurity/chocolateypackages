@@ -11,10 +11,10 @@ jobs:
         name: Choco pack
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: pack
+          args: pack ./*/*.nuspec
       -
         name: Choco push
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push
+          args: push ./*/*.nupkg
        
