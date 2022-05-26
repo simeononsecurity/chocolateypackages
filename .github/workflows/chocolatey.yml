@@ -21,7 +21,7 @@ jobs:
         name: Choco push Standalone-Windows-STIG
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push ./Standalone-Windows-STIG/Standalone-Windows-STIG*.nupkg
+          args: push ./Standalone-Windows-STIG/Standalone-Windows-STIG.1.0.0.nupkg
       -
         name: Choco pack Standalone-Windows-Server-STIG
         uses: crazy-max/ghaction-chocolatey@v2
@@ -31,7 +31,7 @@ jobs:
         name: Choco push Standalone-Windows-Server-STIG
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push ./Standalone-Windows-Server-STIG/Standalone-Windows-Server-STIG.nupkg
+          args: push ./Standalone-Windows-Server-STIG/Standalone-Windows-Server-STIG.1.0.0.nupkg
       -
         name: Choco pack Windows-Optimize-Debloat
         uses: crazy-max/ghaction-chocolatey@v2
@@ -41,7 +41,7 @@ jobs:
         name: Choco push Windows-Optimize-Debloat
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push ./Windows-Optimize-Debloat/Windows-Optimize-Debloat.nupkg
+          args: push ./Windows-Optimize-Debloat/Windows-Optimize-Debloat.1.0.0.nupkg
       -
         name: Choco pack Windows-Optimize-Harden-Debloat
         uses: crazy-max/ghaction-chocolatey@v2
@@ -51,7 +51,7 @@ jobs:
         name: Choco push Windows-Optimize-Harden-Debloat
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push ./Windows-Optimize-Harden-Debloat/Windows-Optimize-Harden-Debloat.nupkg
+          args: push ./Windows-Optimize-Harden-Debloat/Windows-Optimize-Harden-Debloat.1.0.0.nupkg
       -
         name: Choco pack nethor
         uses: crazy-max/ghaction-chocolatey@v2
@@ -61,4 +61,4 @@ jobs:
         name: Choco push nethor
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push ./nethor/nethor.nupkg
+          args: push ./nethor/nethor.2022.0.0.nupkg
