@@ -1,12 +1,17 @@
 on: push
 
 jobs:
-  test:
+  Chocolatey:
     runs-on: windows-latest
     steps:
       -
         name: Checkout
         uses: actions/checkout@v3
+      -
+        name: Choco Auth to 
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: apikey --key ${{ secrets.chocolatey_apikey }} --source https://push.chocolatey.org/
       -
         name: Choco pack Standalone-Windows-STIG
         uses: crazy-max/ghaction-chocolatey@v2
@@ -17,3 +22,43 @@ jobs:
         uses: crazy-max/ghaction-chocolatey@v2
         with:
           args: push ./Standalone-Windows-STIG/Standalone-Windows-STIG*.nupkg
+      -
+        name: Choco pack Standalone-Windows-Server-STIG
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: pack ./Standalone-Windows-Server-STIG/Standalone-Windows-Server-STIG.nuspec
+      -
+        name: Choco push Standalone-Windows-Server-STIG
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: push ./Standalone-Windows-Server-STIG/Standalone-Windows-Server-STIG.nupkg
+      -
+        name: Choco pack Windows-Optimize-Debloat
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: pack ./Windows-Optimize-Debloat/Windows-Optimize-Debloat.nuspec
+      -
+        name: Choco push Windows-Optimize-Debloat
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: push ./Windows-Optimize-Debloat/Windows-Optimize-Debloat.nupkg
+      -
+        name: Choco pack Windows-Optimize-Harden-Debloat
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: pack ./Windows-Optimize-Harden-Debloat/Windows-Optimize-Harden-Debloat.nuspec
+      -
+        name: Choco push Windows-Optimize-Harden-Debloat
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: push ./Windows-Optimize-Harden-Debloat/Windows-Optimize-Harden-Debloat.nupkg
+      -
+        name: Choco pack nethor
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: pack ./nethor/nethor.nuspec
+      -
+        name: Choco push nethor
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: push ./nethor/nethor.nupkg
