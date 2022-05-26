@@ -1,4 +1,8 @@
-$ErrorActionPreference = 'Stop'
+#Continue on error
+$ErrorActionPreference = 'silentlycontinue'
+
+#Require elivation for script run
+#Requires -RunAsAdministrator
 
 # $targetPath = Join-Path -Path $Env:chocolateyPackageFolder -ChildPath tools
 # $url = "https://github.com/simeononsecurity/Standalone-Windows-STIG-Script/archive/refs/heads/master.zip"
