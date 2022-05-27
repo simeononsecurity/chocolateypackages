@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+    <metadata>
+        <id>AwesomeMiner</id>
+        <version>1.0.0</version>
+        <owners>IntelliBreeze Software AB</owners>
+        <title>AwesomeMinerRemoteAgent - Complete solution to manage and monitor mining operations</title>
+        <authors>IntelliBreeze Software AB</authors>
+        <projectUrl>https://www.awesomeminer.com/download</projectUrl>
+        <iconUrl>https://www.awesomeminer.com/img/webtop.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <docsUrl>https://support.awesomeminer.com/support/solutions/</docsUrl>
+        <tags>notSilent awesomeminer crypto gpu asic mining cryptocurrency cryptomining</tags>
+        <summary>Complete solution to manage and monitor mining operations</summary>
+        <description>
+            Powerful for large scale mining
+                Scalable up to 200,000 ASIC miners and 25,000 GPU/CPU miners
+                Feature rich and flexible to serve high demanding operations
+            Maximize profit - Minimize downtime
+                Profit switching based on real time revenue and power consumption
+                Detection of mining issues with automatic recovery
+            Optimized Antminer firmware
+                15% higher performance for Antminer S19 and 40% for Antminer S17
+                Improved power efficiency and more features
+            Easy to get started
+                Start mining within a minute
+                Automatic setup of all popular mining pools with just a click 
+        </description>
+        <releaseNotes>
+            [AwesomeMiner](https://www.awesomeminer.com/)
+        </releaseNotes>
+        <dependencies>
+            <dependency id="chocolatey" version="0.9.8.20" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
+</package>
