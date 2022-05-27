@@ -15,7 +15,7 @@
         <projectSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</projectSourceUrl>
         <docsUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</docsUrl>
         <bugTrackerUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script/issues</bugTrackerUrl>
-        <tags>microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script microsoft enterprise automation powershell mil compliance windows10 cyber stig nsacyber stigs hardware-requirements standalone-systems srgs-applied </tags>
+        <tags>notSilent admin microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script microsoft enterprise automation powershell mil compliance windows10 cyber stig nsacyber stigs hardware-requirements standalone-systems srgs-applied </tags>
         <summary>Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG</summary>
         <description>
             Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG. Totalling over 1000 configuration changes on a typical deployment and an average of 5 minutes per change equaling 3.5 days worth of work. This script aims to speed up that process significantly.    
