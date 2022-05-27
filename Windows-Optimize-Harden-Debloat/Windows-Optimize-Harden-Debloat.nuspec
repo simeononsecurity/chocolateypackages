@@ -15,7 +15,7 @@
         <projectSourceUrl>https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat</projectSourceUrl>
         <docsUrl>https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat</docsUrl>
         <bugTrackerUrl>https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/issues</bugTrackerUrl>
-        <tags>notSilent microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script</tags>
+        <tags>notSilent admin microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script</tags>
         <summary>Windows 10 and Windows 11 are invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency have recommended configuration changes to lockdown, harden, and secure the operating system.</summary>
         <description>
             Windows 10 and Windows 11 are invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency have recommended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many digital and physical attacks on a system. This script aims to automate the configurations recommended by those organizations.    
