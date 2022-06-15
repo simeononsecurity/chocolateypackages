@@ -62,3 +62,23 @@ jobs:
         uses: crazy-max/ghaction-chocolatey@v2
         with:
           args: push ./nethor/nethor.2022.0.0.nupkg
+      -
+        name: Choco pack awesomeminer
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: pack ./AwesomeMiner/AwesomeMiner.nuspec configuration=release --outputdirectory ./AwesomeMiner
+      -
+        name: Choco push awesomeminer
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: push ./AwesomeMiner/awesomeminer.1.0.0.nupkg
+      -
+        name: Choco pack awesomeminerremoteagent
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: pack ./AwesomeMinerRemoteAgent/AwesomeMinerRemoteAgent.nuspec configuration=release --outputdirectory ./AwesomeMinerRemoteAgent
+      -
+        name: Choco push awesomeminerremoteagent
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: push ./AwesomeMinerRemoteAgent/awesomeminer-remoteagent.1.0.0.nupkg
