@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
-        <id>Standalone-Windows-Server-STIG</id>
+        <id>standalone-windows-server-stig</id>
         <version>1.0.0</version>
-        <packageSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</packageSourceUrl>
-        <owners>SimeonOnSecurity</owners>
+        <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Standalone-Windows-Server-STIG/Standalone-Windows-Server-STIG.nuspec</packageSourceUrl>
+        <owners>simeononsecurity</owners>
         <title>Standalone-Windows-Server-STIG - Completely STIG Standalone Windows Server Systems to DoD STIG/SRG Requirements and NSACyber Guidance. </title>
-        <authors>SimeonOnSecurity</authors>
+        <authors>simeononsecurity</authors>
         <projectUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</projectUrl>
-        <copyright>2022 SimeonOnSecurity</copyright>
+        <copyright>2022 simeononsecurity</copyright>
         <licenseUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script/blob/master/LICENSE</licenseUrl>
         <iconUrl>https://avatars.githubusercontent.com/u/4913771?s=64</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -23,9 +23,6 @@
         <releaseNotes>
             [Standalone-Windows-Server-STIG-Script](https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script)
         </releaseNotes>
-        <dependencies>
-            <dependency id="chocolatey" version="0.9.8.20" />
-        </dependencies>
     </metadata>
     <files>
         <file src="tools\**" target="tools" />

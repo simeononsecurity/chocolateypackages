@@ -7,11 +7,11 @@ $arguments = @{
     packageName    = 'nethor'
     #softwareName  = 'nethor*'
     url            = $url
-    url64bit       = $url
+    #url64bit       = $url
     checksum       = '52428631ef6ce75c729c76378ec6a835b0f7341cbbdcd6b70beda90e9b51c343'
     checksumType   = 'sha256'
-    checksum64     = '52428631ef6ce75c729c76378ec6a835b0f7341cbbdcd6b70beda90e9b51c343'
-    checksumType64 = 'sha256'
+    #checksum64     = '52428631ef6ce75c729c76378ec6a835b0f7341cbbdcd6b70beda90e9b51c343'
+    #checksumType64 = 'sha256'
     filetype       = 'EXE'
     silentArgs     = "/SP /VERYSILENT /SUPPRESSMSGBOXES/ NOCANCEL /NORESTART" 
 }

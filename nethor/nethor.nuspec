@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
-        <id>Nethor</id>
+        <id>nethor</id>
         <version>2022.0.0</version>
         <packageSourceUrl>https://nethor.com/download/</packageSourceUrl>
-        <owners>Are Chr. Taraldsen</owners>
+        <owners>simeononsecurity</owners>
         <title>Nethor - Packet Analyzer and Visualizer</title>
         <authors>Are Chr. Taraldsen</authors>
         <projectUrl>https://nethor.com/</projectUrl>
         <copyright>2022 Nethor</copyright>
-        <licenseUrl>https://nethor.com/</licenseUrl>
         <iconUrl>https://i0.wp.com/nethor.com/wp-content/uploads/2020/04/cropped-icon-512-1.png?w=512</iconUrl>
-        <requireLicenseAcceptance>true</requireLicenseAcceptance>
-        <projectSourceUrl>https://nethor.com/</projectSourceUrl>
-        <docsUrl>https://nethor.com/</docsUrl>
-        <bugTrackerUrl>https://nethor.com/</bugTrackerUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <projectSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/nethor/nethor.nuspec</projectSourceUrl>
         <tags>network analyzer wireshark tcp udp nethor</tags>
         <summary>Nethor is a free packet analyzer and visualization tool for Windows that can capture and decode data packets.</summary>
         <description>
@@ -25,9 +22,6 @@
         <releaseNotes>
             [Nethor Release Notes](https://nethor.com/release-notes/)
         </releaseNotes>
-        <dependencies>
-            <dependency id="chocolatey" version="0.9.8.20" />
-        </dependencies>
     </metadata>
     <files>
         <file src="tools\**" target="tools" />

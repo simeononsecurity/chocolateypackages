@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
-        <id>AwesomeMiner</id>
+        <id>awesomeminer-remoteagent</id>
         <version>1.0.0</version>
-        <owners>IntelliBreeze Software AB</owners>
+        <owners>simeononsecurity</owners>
         <title>AwesomeMinerRemoteAgent - Complete solution to manage and monitor mining operations</title>
         <authors>IntelliBreeze Software AB</authors>
         <projectUrl>https://www.awesomeminer.com/download</projectUrl>
+        <projectSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/nethor/nethor.nuspec</projectSourceUrl>
         <iconUrl>https://www.awesomeminer.com/img/webtop.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <docsUrl>https://support.awesomeminer.com/support/solutions/</docsUrl>
@@ -29,9 +30,6 @@
         <releaseNotes>
             [AwesomeMiner](https://www.awesomeminer.com/)
         </releaseNotes>
-        <dependencies>
-            <dependency id="chocolatey" version="0.9.8.20" />
-        </dependencies>
     </metadata>
     <files>
         <file src="tools\**" target="tools" />

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
-        <id>Windows-Optimize-Debloat</id>
+        <id>windows-optimize-debloat</id>
         <version>1.0.0</version>
-        <packageSourceUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat</packageSourceUrl>
-        <owners>SimeonOnSecurity</owners>
+        <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Windows-Optimize-Debloat/Windows-Optimize-Debloat.nuspec</packageSourceUrl>
+        <owners>simeononsecurity</owners>
         <title>Windows-Optimize-Debloat - Optimize and Debloat Windows 10 and Windows 11 Deployments</title>
-        <authors>SimeonOnSecurity</authors>
+        <authors>simeononsecurity</authors>
         <projectUrl>https://simeononsecurity.ch/github/windows-optimize-harden-debloat/</projectUrl>
-        <copyright>2022 SimeonOnSecurity</copyright>
+        <copyright>2022 simeononsecurity</copyright>
         <licenseUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat/blob/main/LICENSE</licenseUrl>
         <iconUrl>https://avatars.githubusercontent.com/u/4913771?s=64</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -23,9 +23,6 @@
         <releaseNotes>
             [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
         </releaseNotes>
-        <dependencies>
-            <dependency id="chocolatey" version="0.9.8.20" />
-        </dependencies>
     </metadata>
     <files>
         <file src="tools\**" target="tools" />
