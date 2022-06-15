@@ -16,7 +16,7 @@ jobs:
         name: Choco pack Standalone-Windows-STIG
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: pack ./Standalone-Windows-STIG/Standalone-Windows-STIG.nuspec
+          args: pack ./Standalone-Windows-STIG/Standalone-Windows-STIG.nuspec configuration=release --outputdirectory ./
       -
         name: Choco push Standalone-Windows-STIG
         uses: crazy-max/ghaction-chocolatey@v2
@@ -26,7 +26,7 @@ jobs:
         name: Choco pack Standalone-Windows-Server-STIG
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: pack ./Standalone-Windows-Server-STIG/Standalone-Windows-Server-STIG.nuspec
+          args: pack ./Standalone-Windows-Server-STIG/Standalone-Windows-Server-STIG.nuspec configuration=release --outputdirectory ./
       -
         name: Choco push Standalone-Windows-Server-STIG
         uses: crazy-max/ghaction-chocolatey@v2
@@ -36,7 +36,7 @@ jobs:
         name: Choco pack Windows-Optimize-Debloat
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: pack ./Windows-Optimize-Debloat/Windows-Optimize-Debloat.nuspec
+          args: pack ./Windows-Optimize-Debloat/Windows-Optimize-Debloat.nuspec configuration=release --outputdirectory ./
       -
         name: Choco push Windows-Optimize-Debloat
         uses: crazy-max/ghaction-chocolatey@v2
@@ -46,17 +46,17 @@ jobs:
         name: Choco pack Windows-Optimize-Harden-Debloat
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: pack ./Windows-Optimize-Harden-Debloat/Windows-Optimize-Harden-Debloat.nuspec
+          args: pack ./Windows-Optimize-Harden-Debloat/Windows-Optimize-Harden-Debloat.nuspec configuration=release --outputdirectory ./
       -
         name: Choco push Windows-Optimize-Harden-Debloat
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push ./Windows-Optimize-Harden-Debloat/Windows-Optimize-Harden-Debloat.1.0.0.nupkg
+          args: push ./Windows-Optimize-Harden-Debloat/Windows-Optimize-Harden-Debloat.1.0.0.nupkg configuration=release --outputdirectory ./
       -
         name: Choco pack nethor
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: pack ./nethor/nethor.nuspec
+          args: pack ./nethor/nethor.nuspec configuration=release --outputdirectory ./ 
       -
         name: Choco push nethor
         uses: crazy-max/ghaction-chocolatey@v2
