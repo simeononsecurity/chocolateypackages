@@ -10,7 +10,7 @@
         <projectUrl>https://simeononsecurity.ch/github/optimizing-and-hardening-windows10-deployments/</projectUrl>
         <copyright>2022 simeononsecurity</copyright>
         <licenseUrl>https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/blob/master/LICENSE</licenseUrl>
-        <iconUrl>https://avatars.githubusercontent.com/u/4913771?s=64</iconUrl>
+        <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Windows-Optimize-Harden-Debloat/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <projectSourceUrl>https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat</projectSourceUrl>
         <docsUrl>https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat</docsUrl>

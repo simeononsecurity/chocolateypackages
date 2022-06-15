@@ -9,7 +9,7 @@
         <authors>Are Chr. Taraldsen</authors>
         <projectUrl>https://nethor.com/</projectUrl>
         <copyright>2022 Nethor</copyright>
-        <iconUrl>https://i0.wp.com/nethor.com/wp-content/uploads/2020/04/cropped-icon-512-1.png?w=512</iconUrl>
+        <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/nethor/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <projectSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/nethor/nethor.nuspec</projectSourceUrl>
         <tags>network analyzer wireshark tcp udp nethor</tags>

@@ -10,7 +10,7 @@
         <projectUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</projectUrl>
         <copyright>2022 simeononsecurity</copyright>
         <licenseUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script/blob/master/LICENSE</licenseUrl>
-        <iconUrl>https://avatars.githubusercontent.com/u/4913771?s=64</iconUrl>
+        <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Standalone-Windows-STIG/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <projectSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</projectSourceUrl>
         <docsUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</docsUrl>

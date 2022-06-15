@@ -10,7 +10,7 @@
         <projectUrl>https://simeononsecurity.ch/github/windows-optimize-harden-debloat/</projectUrl>
         <copyright>2022 simeononsecurity</copyright>
         <licenseUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat/blob/main/LICENSE</licenseUrl>
-        <iconUrl>https://avatars.githubusercontent.com/u/4913771?s=64</iconUrl>
+        <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Windows-Optimize-Debloat/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <projectSourceUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat</projectSourceUrl>
         <docsUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat</docsUrl>
