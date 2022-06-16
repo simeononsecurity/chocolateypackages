@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>nethor</id>
-        <version>2022.0.0</version>
+        <version>2022.1.0</version>
         <packageSourceUrl>https://nethor.com/download/</packageSourceUrl>
         <owners>simeononsecurity</owners>
         <title>Nethor - Packet Analyzer and Visualizer</title>
