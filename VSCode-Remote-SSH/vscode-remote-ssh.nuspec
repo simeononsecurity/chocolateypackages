@@ -37,7 +37,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Microsoft</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh</projectUrl>
-    <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-SSH/logos/Microsoft.VisualStudio.Services.Icons.png?raw=true</iconUrl>
+    <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-SSH/logos/Microsoft.VisualStudio.Services.Icons.png</iconUrl>
     <!-- copyright is usually years and software vendor, but not required for internal feeds -->
     <copyright>Microsoft</copyright>
     <tags>vscode-remote-ssh remote-ssh remote ssh extension vscode</tags>
@@ -49,7 +49,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <docsUrl>https://github.com/microsoft/vscode-remote-release/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/microsoft/vscode-remote-release/issues</bugTrackerUrl>
     <summary>VSCode extension for Remote SSH</summary>
-    <description><![CDATA[##Visual Studio Code Remote - SSH
+    <description><![CDATA[Visual Studio Code Remote - SSH
 
 The Remote - SSH extension lets you use any remote machine with a SSH server as your development environment. This can greatly simplify development and troubleshooting in a wide variety of situations. You can:
 
