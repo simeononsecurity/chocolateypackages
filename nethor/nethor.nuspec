@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>nethor</id>
-        <version>2022.1.0</version>
+        <version>2023.0.0</version>
         <packageSourceUrl>https://nethor.com/download/</packageSourceUrl>
         <owners>simeononsecurity</owners>
         <title>Nethor - Packet Analyzer and Visualizer</title>
         <authors>Are Chr. Taraldsen</authors>
         <projectUrl>https://nethor.com/</projectUrl>
-        <copyright>2022 Nethor</copyright>
+        <copyright>2023 Nethor</copyright>
         <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/nethor/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <projectSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/nethor/nethor.nuspec</projectSourceUrl>
