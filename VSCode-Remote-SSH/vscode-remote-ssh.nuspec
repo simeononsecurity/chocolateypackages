@@ -37,14 +37,14 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Microsoft</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/mkevenaar/chocolatey-packages@436d3ec48c11e068a351c98590a9b3a54076829f/icons/vscode-ansible.png</iconUrl>
+    <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-SSH/logos/Microsoft.VisualStudio.Services.Icons.png?raw=true</iconUrl>
     <!-- copyright is usually years and software vendor, but not required for internal feeds -->
     <copyright>Microsoft</copyright>
     <tags>vscode-ansible ansible extension vscode</tags>
     <releaseNotes>https://code.visualstudio.com/updates/</releaseNotes>
     <licenseUrl>https://marketplace.visualstudio.com/items/ms-vscode-remote.remote-ssh/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <packageSourceUrl>https://github.com/mkevenaar/chocolatey-packages/tree/master/automatic/vscode-ansible</packageSourceUrl>
+    <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/tree/main/VSCode-Remote-SSH</packageSourceUrl>
     <projectSourceUrl>https://github.com/Microsoft/vscode-remote-release</projectSourceUrl>
     <docsUrl>https://github.com/microsoft/vscode-remote-release/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/microsoft/vscode-remote-release/issues</bugTrackerUrl>
