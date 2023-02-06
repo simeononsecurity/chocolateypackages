@@ -37,7 +37,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Microsoft</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack</projectUrl>
-    <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-Development/logos/Microsoft.VisualStudio.Services.Icons.png?raw=true</iconUrl>
+    <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-Development/logos/Microsoft.VisualStudio.Services.Icons.png</iconUrl>
     <!-- copyright is usually years and software vendor, but not required for internal feeds -->
     <copyright>Microsoft</copyright>
     <tags>vscode-development development remote extension vscode</tags>
@@ -49,7 +49,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <docsUrl>https://github.com/microsoft/vscode-remote-release/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/microsoft/vscode-remote-release/issues</bugTrackerUrl>
     <summary>VSCode extension pack for Remote Development</summary>
-    <description><![CDATA[##Visual Studio Code Remote Development Extension Pack
+    <description><![CDATA[Visual Studio Code Remote Development Extension Pack
 
 The Remote Development extension pack allows you to open any folder in a container, on a remote machine, or in the Windows Subsystem for Linux (WSL) and take advantage of VS Code's full feature set. Since this lets you set up a full-time development environment anywhere, you can:
 
