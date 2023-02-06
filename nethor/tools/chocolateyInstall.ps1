@@ -2,15 +2,15 @@ $ErrorActionPreference = 'Stop'
 
 $targetPath = Join-Path -Path $Env:chocolateyPackageFolder -ChildPath tools
 $validExitCodes = @(0, 3010, 1641)
-$url = "https://www.oldergeeks.com/downloads/files/nethor-2022.1.0-setup.exe"
+$url = "https://www.oldergeeks.com/downloads/download.php?id=3689"
 $arguments = @{
     packageName    = 'nethor'
     #softwareName  = 'nethor*'
     url            = $url
     #url64bit       = $url
-    checksum       = '176703c250303e43c7e29d038281494cd721ecfe8eac644a151540d6288b60a0'
+    checksum       = '2F904100EB3118B16D66BAC1EA4BE8D92D089EE821B9219BC609C702151DD998'
     checksumType   = 'sha256'
-    #checksum64     = '176703c250303e43c7e29d038281494cd721ecfe8eac644a151540d6288b60a0'
+    #checksum64     = '2F904100EB3118B16D66BAC1EA4BE8D92D089EE821B9219BC609C702151DD998'
     #checksumType64 = 'sha256'
     filetype       = 'EXE'
     silentArgs     = "/SP /VERYSILENT /SUPPRESSMSGBOXES/ NOCANCEL /NORESTART" 
