@@ -1,4 +1,4 @@
-# <img src="https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-SSH/logos/Microsoft.VisualStudio.Services.Icons.png?raw=true" width="48" height="48"/> [vscode-ansible](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+# <img src="https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-SSH/logos/Microsoft.VisualStudio.Services.Icons.png?raw=true" width="48" height="48"/> [vscode-remote-ssh](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
 ## Remote-SSH VS Code Extension by Microsoft
 
