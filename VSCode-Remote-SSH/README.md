@@ -1,13 +1,8 @@
-# <img src="https://cdn.jsdelivr.net/gh/mkevenaar/chocolatey-packages@436d3ec48c11e068a351c98590a9b3a54076829f/icons/vscode-ansible.png" width="48" height="48"/> [vscode-ansible](https://community.chocolatey.org/packages/vscode-ansible)
+# <img src="https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-SSH/logos/Microsoft.VisualStudio.Services.Icons.png?raw=true" width="48" height="48"/> [vscode-ansible](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
-## Ansible VS Code Extension by Red Hat
+## Remote-SSH VS Code Extension by Red Hat
 
-This extension adds language support for Ansible to
-[Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible)
-and [OpenVSX](https://open-vsx.org/extension/redhat/ansible) compatible editors
-by leveraging
-[ansible-language-server](https://github.com/ansible/ansible-language-server).
-
+This extension adds the [Remote-SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) Extension to VSCode
 
 **Please Note**: This is an automatically updated package. If you find it is
 out of date by more than a day or two, please contact the maintainer(s) and
