@@ -40,7 +40,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-SSH/logos/Microsoft.VisualStudio.Services.Icons.png?raw=true</iconUrl>
     <!-- copyright is usually years and software vendor, but not required for internal feeds -->
     <copyright>Microsoft</copyright>
-    <tags>vscode-ansible ansible extension vscode</tags>
+    <tags>vscode-remote-ssh remote-ssh remote ssh extension vscode</tags>
     <releaseNotes>https://code.visualstudio.com/updates/</releaseNotes>
     <licenseUrl>https://marketplace.visualstudio.com/items/ms-vscode-remote.remote-ssh/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
