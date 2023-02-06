@@ -1,4 +1,4 @@
-# <img src="https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-Development/logos/Microsoft.VisualStudio.Services.Icons.png?raw=true" width="48" height="48"/> [vscode-ansible](https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-Development/logos/Microsoft.VisualStudio.Services.Icons.png?raw=true)
+# <img src="https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-Development/logos/Microsoft.VisualStudio.Services.Icons.png?raw=true" width="48" height="48"/> [vscode-remote-development](https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-Development/logos/Microsoft.VisualStudio.Services.Icons.png?raw=true)
 
 ## Remote-Development VS Code Extension by Microsoft
 
