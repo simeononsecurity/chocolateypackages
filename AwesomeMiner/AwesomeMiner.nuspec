@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>awesomeminer</id>
-        <version>1.0.0</version>
+        <version>1.1.0</version>
         <owners>simeononsecurity</owners>
         <title>AwesomeMiner - Complete solution to manage and monitor mining operations</title>
         <authors>IntelliBreeze Software AB</authors>
@@ -11,7 +11,7 @@
         <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/AwesomeMiner/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <docsUrl>https://support.awesomeminer.com/support/solutions/</docsUrl>
-        <tags>notSilent awesomeminer crypto gpu asic mining cryptocurrency cryptomining</tags>
+        <tags>awesomeminer crypto gpu asic mining cryptocurrency cryptomining</tags>
         <summary>Complete solution to manage and monitor mining operations</summary>
         <description>
             Powerful for large scale mining
