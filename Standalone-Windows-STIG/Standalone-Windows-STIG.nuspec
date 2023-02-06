@@ -2,20 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>standalone-windows-stig</id>
-        <version>1.0.0</version>
-        <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Standalone-Windows-STIG/Standalone-Windows-STIG.nuspec</packageSourceUrl>
+        <version>1.0.1</version>
         <owners>simeononsecurity</owners>
-        <title>Standalone-Windows-STIG - Completely STIG Standalone Windows Systems to DoD STIG/SRG Requirements and NSACyber Guidance. </title>
+        <title>Standalone-Windows-STIG - Completely STIG Standalone Windows Systems to DoD STIG/SRG Requirements and NSACyber Guidance.</title>
         <authors>simeononsecurity</authors>
         <projectUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</projectUrl>
-        <copyright>2022 simeononsecurity</copyright>
+        <projectSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</projectSourceUrl>
+        <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Standalone-Windows-STIG/</packageSourceUrl>
+        <copyright>2020-2023 simeononsecurity</copyright>
         <licenseUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script/blob/master/LICENSE</licenseUrl>
         <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Standalone-Windows-STIG/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <projectSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</projectSourceUrl>
         <docsUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</docsUrl>
         <bugTrackerUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script/issues</bugTrackerUrl>
-        <tags>notSilent admin microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script microsoft enterprise automation powershell mil compliance windows10 cyber stig nsacyber stigs hardware-requirements standalone-systems srgs-applied </tags>
+        <tags>admin microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script microsoft enterprise automation powershell mil compliance windows10 cyber stig nsacyber stigs hardware-requirements standalone-systems srgs-applied </tags>
         <summary>Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG</summary>
         <description>
             Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG. Totalling over 1000 configuration changes on a typical deployment and an average of 5 minutes per change equaling 3.5 days worth of work. This script aims to speed up that process significantly.    

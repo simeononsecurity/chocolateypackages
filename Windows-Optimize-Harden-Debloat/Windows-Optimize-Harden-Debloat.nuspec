@@ -2,20 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>windows-optimize-harden-debloat</id>
-        <version>1.0.0</version>
-        <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Windows-Optimize-Harden-Debloat/Windows-Optimize-Harden-Debloat.nuspec</packageSourceUrl>
+        <version>1.0.1</version>
+        <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Windows-Optimize-Harden-Debloat/</packageSourceUrl>
         <owners>simeononsecurity</owners>
         <title>Windows-Optimize-Harden-Debloat - Optimize, Harden, and Debloat Windows 10 and Windows 11 Deployments</title>
         <authors>simeononsecurity</authors>
-        <projectUrl>https://simeononsecurity.ch/github/optimizing-and-hardening-windows10-deployments/</projectUrl>
-        <copyright>2022 simeononsecurity</copyright>
+        <projectUrl>https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat</projectUrl>
+        <copyright>2020-2023 simeononsecurity</copyright>
         <licenseUrl>https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/blob/master/LICENSE</licenseUrl>
         <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Windows-Optimize-Harden-Debloat/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <projectSourceUrl>https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat</projectSourceUrl>
         <docsUrl>https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat</docsUrl>
         <bugTrackerUrl>https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/issues</bugTrackerUrl>
-        <tags>notSilent admin microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script</tags>
+        <tags>admin microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script</tags>
         <summary>Windows 10 and Windows 11 are invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency have recommended configuration changes to lockdown, harden, and secure the operating system.</summary>
         <description>
             Windows 10 and Windows 11 are invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency have recommended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many digital and physical attacks on a system. This script aims to automate the configurations recommended by those organizations.    

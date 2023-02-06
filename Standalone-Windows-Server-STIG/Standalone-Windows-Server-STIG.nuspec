@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>standalone-windows-server-stig</id>
-        <version>1.0.0</version>
-        <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Standalone-Windows-Server-STIG/Standalone-Windows-Server-STIG.nuspec</packageSourceUrl>
+        <version>1.0.1</version>
+        <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Standalone-Windows-Server-STIG/</packageSourceUrl>
         <owners>simeononsecurity</owners>
         <title>Standalone-Windows-Server-STIG - Completely STIG Standalone Windows Server Systems to DoD STIG/SRG Requirements and NSACyber Guidance. </title>
         <authors>simeononsecurity</authors>
@@ -15,7 +15,7 @@
         <projectSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</projectSourceUrl>
         <docsUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</docsUrl>
         <bugTrackerUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script/issues</bugTrackerUrl>
-        <tags>notSilent admin microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script microsoft enterprise automation powershell mil compliance windows10 cyber stig nsacyber stigs hardware-requirements standalone-systems srgs-applied </tags>
+        <tags>admin microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script microsoft enterprise automation powershell mil compliance windows10 cyber stig nsacyber stigs hardware-requirements standalone-systems srgs-applied </tags>
         <summary>Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG</summary>
         <description>
             Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG. Totalling over 1000 configuration changes on a typical deployment and an average of 5 minutes per change equaling 3.5 days worth of work. This script aims to speed up that process significantly.    
