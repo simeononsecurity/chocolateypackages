@@ -11,7 +11,7 @@
         <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/AwesomeMinerRemoteAgent/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <docsUrl>https://support.awesomeminer.com/support/solutions/</docsUrl>
-        <tags>notSilent awesomeminer crypto gpu asic mining cryptocurrency cryptomining</tags>
+        <tags>awesomeminer crypto gpu asic mining cryptocurrency cryptomining</tags>
         <summary>Complete solution to manage and monitor mining operations</summary>
         <description>
             Powerful for large scale mining
