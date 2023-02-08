@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 
-$targetPath = Join-Path -Path $Env:chocolateyPackageFolder -ChildPath tools
+$targetPath = Get-ToolsLocation
 $validExitCodes = @(0, 3010, 1641)
 $url = "https://www.oldergeeks.com/downloads/download.php?id=3689"
 $arguments = @{
