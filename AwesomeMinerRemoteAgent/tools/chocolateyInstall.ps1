@@ -1,9 +1,3 @@
-#Continue on error
-$ErrorActionPreference = 'silentlycontinue'
-
-#Require elivation for script run
-#Requires -RunAsAdministrator
-
 $targetPath = Get-ToolsLocation
 $validExitCodes = @(0, 3010, 1641)
 $url = "https://www.awesomeminer.com/download/setup/AwesomeMinerRemoteService.msi"
@@ -20,5 +14,5 @@ $arguments = @{
     silentArgs     = "/QUIET /NORESTART" 
 }
 
-Install-ChocolateyPackage @arguments -validExitCodes $validExitCodes
+Install-ChocolateyPackage @arguments -validExitCodes $validExitCodes -ErrorActionPreference 'Stop'
 

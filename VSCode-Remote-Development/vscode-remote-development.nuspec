@@ -37,7 +37,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Microsoft</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack</projectUrl>
-    <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/VSCode-Remote-Development/logos/Microsoft.VisualStudio.Services.Icons.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/simeononsecurity/chocolateypackages/cf06ace83c54191fa864c8299d1df786e9875894/VSCode-Remote-Development/logos/Microsoft.VisualStudio.Services.Icons.png</iconUrl>
     <!-- copyright is usually years and software vendor, but not required for internal feeds -->
     <copyright>Microsoft</copyright>
     <tags>vscode-development development remote extension vscode</tags>

@@ -10,12 +10,12 @@
         <projectUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</projectUrl>
         <copyright>2022 simeononsecurity</copyright>
         <licenseUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script/blob/master/LICENSE</licenseUrl>
-        <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Standalone-Windows-Server-STIG/logo.png</iconUrl>
+        <iconUrl>https://rawcdn.githack.com/simeononsecurity/chocolateypackages/cf06ace83c54191fa864c8299d1df786e9875894/Standalone-Windows-Server-STIG/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <projectSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</projectSourceUrl>
-        <docsUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</docsUrl>
+        <docsUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script/blob/master/README.md</docsUrl>
         <bugTrackerUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script/issues</bugTrackerUrl>
-        <tags>admin microsoft windows automation privacy telemetry windows-10 mil windows-desktop windows10 cyber mitigations bitlocker debloat harden windows-defender debotnet stig-compliant stigs hardware-requirements privacy-script microsoft enterprise automation powershell mil compliance windows10 cyber stig nsacyber stigs hardware-requirements standalone-systems srgs-applied </tags>
+        <tags>admin microsoft windows server automation privacy telemetry security stigs</tags>
         <summary>Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG</summary>
         <description>
             Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG. Totalling over 1000 configuration changes on a typical deployment and an average of 5 minutes per change equaling 3.5 days worth of work. This script aims to speed up that process significantly.    

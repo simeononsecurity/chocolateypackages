@@ -8,7 +8,7 @@
         <authors>IntelliBreeze Software AB</authors>
         <projectUrl>https://www.awesomeminer.com/download</projectUrl>
         <projectSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/nethor/nethor.nuspec</projectSourceUrl>
-        <iconUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/AwesomeMinerRemoteAgent/logo.png</iconUrl>
+        <iconUrl>https://rawcdn.githack.com/simeononsecurity/chocolateypackages/cf06ace83c54191fa864c8299d1df786e9875894/AwesomeMinerRemoteAgent/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <docsUrl>https://support.awesomeminer.com/support/solutions/</docsUrl>
         <tags>awesomeminer crypto gpu asic mining cryptocurrency cryptomining</tags>
