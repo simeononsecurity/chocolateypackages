@@ -1,0 +1,1 @@
+foreach ($folder in (Get-ChildItem -Recurse -Depth 1).Directory.FullName){Set-Location $folder ; choco pack ; choco push}
