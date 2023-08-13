@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>standalone-windows-server-stig</id>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Standalone-Windows-Server-STIG/</packageSourceUrl>
         <owners>simeononsecurity</owners>
         <title>Standalone-Windows-Server-STIG - Completely STIG Standalone Windows Server Systems to DoD STIG/SRG Requirements and NSACyber Guidance. </title>

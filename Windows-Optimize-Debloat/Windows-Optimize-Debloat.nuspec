@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>windows-optimize-debloat</id>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Windows-Optimize-Debloat/</packageSourceUrl>
         <owners>simeononsecurity</owners>
         <title>Windows-Optimize-Debloat - Optimize and Debloat Windows 10 and Windows 11 Deployments</title>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>awesomeminer-remoteagent</id>
-        <version>1.1.0</version>
+        <version>1.1.1</version>
         <owners>simeononsecurity</owners>
         <title>AwesomeMinerRemoteAgent - Complete solution to manage and monitor mining operations</title>
         <authors>IntelliBreeze Software AB</authors>
@@ -26,6 +26,13 @@
             Easy to get started
                 Start mining within a minute
                 Automatic setup of all popular mining pools with just a click 
+
+            The binary contains multiple crypto mining applications such as T-Rex miner, Lolminer, TeamRed miner. Etc.
+            Usually you have to run these applications with either AV turned off or with specific AV exceptions.
+            It's just a fact of how these applications operate and work. Please see the documentation on it below.
+
+            https://support.awesomeminer.com/support/solutions/articles/35000103576-why-does-my-anti-virus-software-detect-threats-
+            https://support.awesomeminer.com/support/solutions/articles/35000085974-environment-setup-configure-exclusions-in-windows-defender
         </description>
         <releaseNotes>
             [AwesomeMiner](https://www.awesomeminer.com/)
