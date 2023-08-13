@@ -6,7 +6,7 @@
         <owners>simeononsecurity</owners>
         <title>Standalone-Windows-STIG - Completely STIG Standalone Windows Systems to DoD STIG/SRG Requirements and NSACyber Guidance.</title>
         <authors>simeononsecurity</authors>
-        <projectUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</projectUrl>
+        <projectUrl>https://simeononsecurity.ch/github/standalone-windows-stig/</projectUrl>
         <projectSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</projectSourceUrl>
         <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Standalone-Windows-STIG/</packageSourceUrl>
         <copyright>2020-2023 simeononsecurity</copyright>

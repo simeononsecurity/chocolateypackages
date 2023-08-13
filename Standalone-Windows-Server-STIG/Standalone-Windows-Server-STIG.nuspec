@@ -7,7 +7,7 @@
         <owners>simeononsecurity</owners>
         <title>Standalone-Windows-Server-STIG - Completely STIG Standalone Windows Server Systems to DoD STIG/SRG Requirements and NSACyber Guidance. </title>
         <authors>simeononsecurity</authors>
-        <projectUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script</projectUrl>
+        <projectUrl>https://simeononsecurity.ch/github/standalone-windows-server-stig/</projectUrl>
         <copyright>2022 simeononsecurity</copyright>
         <licenseUrl>https://github.com/simeononsecurity/Standalone-Windows-Server-STIG-Script/blob/master/LICENSE</licenseUrl>
         <iconUrl>https://rawcdn.githack.com/simeononsecurity/chocolateypackages/cf06ace83c54191fa864c8299d1df786e9875894/Standalone-Windows-Server-STIG/logo.png</iconUrl>

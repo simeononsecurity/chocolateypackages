@@ -7,7 +7,7 @@
         <owners>simeononsecurity</owners>
         <title>Windows-Optimize-Debloat - Optimize and Debloat Windows 10 and Windows 11 Deployments</title>
         <authors>simeononsecurity</authors>
-        <projectUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat/</projectUrl>
+        <projectUrl>https://simeononsecurity.ch/github/windows-optimize-debloat/</projectUrl>
         <copyright>2020-2023 simeononsecurity</copyright>
         <licenseUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat/blob/main/LICENSE</licenseUrl>
         <iconUrl>https://rawcdn.githack.com/simeononsecurity/chocolateypackages/cf06ace83c54191fa864c8299d1df786e9875894/Windows-Optimize-Debloat/logo.png</iconUrl>
