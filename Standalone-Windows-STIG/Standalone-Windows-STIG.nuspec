@@ -19,6 +19,7 @@
         <summary>Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG</summary>
         <description>
             Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG. Totalling over 1000 configuration changes on a typical deployment and an average of 5 minutes per change equaling 3.5 days worth of work. This script aims to speed up that process significantly.    
+            For more information visit our website: https://simeononsecurity.ch/github/standalone-windows-stig/ .    
     </description>
         <releaseNotes>
             [Standalone-Windows-STIG-Script](https://github.com/simeononsecurity/Standalone-Windows-STIG-Script)
@@ -26,5 +27,7 @@
     </metadata>
     <files>
         <file src="tools\**" target="tools" />
+        <file src="..\readme.md" target="docs\" />
+        <file src="..\logo.png" target="images\" />
     </files>
 </package>

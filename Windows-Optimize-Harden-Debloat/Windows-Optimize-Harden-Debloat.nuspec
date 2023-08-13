@@ -18,7 +18,8 @@
         <tags>admin microsoft windows automation privacy telemetry Security stigs</tags>
         <summary>Windows 10 and Windows 11 are invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency have recommended configuration changes to lockdown, harden, and secure the operating system.</summary>
         <description>
-            Windows 10 and Windows 11 are invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency have recommended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many digital and physical attacks on a system. This script aims to automate the configurations recommended by those organizations.    
+            Windows 10 and Windows 11 are invasive and insecure operating system out of the box. Organizations like PrivacyTools.io, Microsoft, Cyber.mil, the Department of Defense, and the National Security Agency have recommended configuration changes to lockdown, harden, and secure the operating system. These changes cover a wide range of mitigations including blocking telemetry, macros, removing bloatware, and preventing many digital and physical attacks on a system. This script aims to automate the configurations recommended by those organizations.
+            For more information visit our website: https://simeononsecurity.ch/github/windows-optimize-harden-debloat/ .    
     </description>
         <releaseNotes>
             [Windows-Optimize-Harden-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat/releases)
@@ -26,5 +27,7 @@
     </metadata>
     <files>
         <file src="tools\**" target="tools" />
+        <file src="..\readme.md" target="docs\" />
+        <file src="..\logo.png" target="images\" />
     </files>
 </package>

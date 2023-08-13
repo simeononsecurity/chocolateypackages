@@ -18,7 +18,8 @@
         <tags>admin microsoft windows automation privacy telemetry Security stigs</tags>
         <summary>Windows 10 and 11 is are invasive and insecure operating system out of the box. Organizations like Microsoft, PrivacyTools.io, and others have recommended configuration changes to optimize and debloat the Windows 10 operating system.</summary>
         <description>
-            Windows 10 and 11 is are invasive and insecure operating system out of the box. Organizations like Microsoft, PrivacyTools.io, and others have recommended configuration changes to optimize and debloat the Windows 10 operating system. These changes are include blocking telemetry, deleting logs, and removing bloatware to name a few. This script aims to automate the configurations recommended by those organizations.    
+            Windows 10 and 11 is are invasive and insecure operating system out of the box. Organizations like Microsoft, PrivacyTools.io, and others have recommended configuration changes to optimize and debloat the Windows 10 operating system. These changes are include blocking telemetry, deleting logs, and removing bloatware to name a few. This script aims to automate the configurations recommended by those organizations. 
+            For more information visit our website: https://simeononsecurity.ch/github/windows-optimize-debloat/ .    
     </description>
         <releaseNotes>
             [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
@@ -26,5 +27,7 @@
     </metadata>
     <files>
         <file src="tools\**" target="tools" />
+        <file src="..\readme.md" target="docs\" />
+        <file src="..\logo.png" target="images\" />
     </files>
 </package>
