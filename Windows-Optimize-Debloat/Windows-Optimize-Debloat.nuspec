@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>windows-optimize-debloat</id>
-        <version>1.0.2</version>
+        <version>1.0.4</version>
         <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Windows-Optimize-Debloat/</packageSourceUrl>
         <owners>simeononsecurity</owners>
         <title>Windows-Optimize-Debloat - Optimize and Debloat Windows 10 and Windows 11 Deployments</title>
         <authors>simeononsecurity</authors>
-        <projectUrl>https://simeononsecurity.ch/github/windows-optimize-debloat/</projectUrl>
+        <projectUrl>https://simeononsecurity.com/github/windows-optimize-debloat/</projectUrl>
         <copyright>2020-2023 simeononsecurity</copyright>
         <licenseUrl>https://github.com/simeononsecurity/Windows-Optimize-Debloat/blob/main/LICENSE</licenseUrl>
         <iconUrl>https://rawcdn.githack.com/simeononsecurity/chocolateypackages/cf06ace83c54191fa864c8299d1df786e9875894/Windows-Optimize-Debloat/logo.png</iconUrl>
@@ -19,7 +19,7 @@
         <summary>Windows 10 and 11 is are invasive and insecure operating system out of the box. Organizations like Microsoft, PrivacyTools.io, and others have recommended configuration changes to optimize and debloat the Windows 10 operating system.</summary>
         <description>
             Windows 10 and 11 is are invasive and insecure operating system out of the box. Organizations like Microsoft, PrivacyTools.io, and others have recommended configuration changes to optimize and debloat the Windows 10 operating system. These changes are include blocking telemetry, deleting logs, and removing bloatware to name a few. This script aims to automate the configurations recommended by those organizations. 
-            For more information visit our website: https://simeononsecurity.ch/github/windows-optimize-debloat/ .    
+            For more information visit our website: https://simeononsecurity.com/github/windows-optimize-debloat/ .    
     </description>
         <releaseNotes>
             [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
@@ -28,6 +28,6 @@
     <files>
         <file src="tools\**" target="tools" />
         <file src="..\readme.md" target="docs\" />
-        <file src="..\logo.png" target="images\" />
+        <file src=".\logo.png" target="images\" />
     </files>
 </package>

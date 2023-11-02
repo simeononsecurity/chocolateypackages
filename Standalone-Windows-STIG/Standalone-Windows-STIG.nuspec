@@ -2,11 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
         <id>standalone-windows-stig</id>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
         <owners>simeononsecurity</owners>
         <title>Standalone-Windows-STIG - Completely STIG Standalone Windows Systems to DoD STIG/SRG Requirements and NSACyber Guidance.</title>
         <authors>simeononsecurity</authors>
-        <projectUrl>https://simeononsecurity.ch/github/standalone-windows-stig/</projectUrl>
+        <projectUrl>https://simeononsecurity.com/github/standalone-windows-stig/</projectUrl>
         <projectSourceUrl>https://github.com/simeononsecurity/Standalone-Windows-STIG-Script</projectSourceUrl>
         <packageSourceUrl>https://github.com/simeononsecurity/chocolateypackages/blob/main/Standalone-Windows-STIG/</packageSourceUrl>
         <copyright>2020-2023 simeononsecurity</copyright>
@@ -19,7 +19,7 @@
         <summary>Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG</summary>
         <description>
             Standalone systems are some of the most difficult and annoying systems to secure. When not automated, they require manual changes of each STIG/SRG. Totalling over 1000 configuration changes on a typical deployment and an average of 5 minutes per change equaling 3.5 days worth of work. This script aims to speed up that process significantly.    
-            For more information visit our website: https://simeononsecurity.ch/github/standalone-windows-stig/ .    
+            For more information visit our website: https://simeononsecurity.com/github/standalone-windows-stig/ .    
     </description>
         <releaseNotes>
             [Standalone-Windows-STIG-Script](https://github.com/simeononsecurity/Standalone-Windows-STIG-Script)
@@ -28,6 +28,6 @@
     <files>
         <file src="tools\**" target="tools" />
         <file src="..\readme.md" target="docs\" />
-        <file src="..\logo.png" target="images\" />
+        <file src=".\logo.png" target="images\" />
     </files>
 </package>
