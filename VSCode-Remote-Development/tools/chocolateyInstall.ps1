@@ -3,4 +3,4 @@
 # clean up old extension
 Uninstall-VsCodeExtension -extensionId 'ms-vscode-remote.vscode-remote-extensionpack'
 
-Install-VsCodeExtension -extensionId 'ms-vscode-remote.vscode-remote-extensionpack@0.23.0'
+Install-VsCodeExtension -extensionId 'ms-vscode-remote.vscode-remote-extensionpack@0.25.0'
