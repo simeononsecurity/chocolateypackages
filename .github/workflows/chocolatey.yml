@@ -9,99 +9,105 @@ jobs:
         uses: actions/checkout@v3
       -
         name: Choco Auth to 
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: apikey --key ${{ secrets.chocolatey_apikey }} --source https://push.chocolatey.org/
       -
+        name: Choco Auth to 
+        uses: crazy-max/ghaction-chocolatey@v3
+        with:
+          args: config set --name="'defaultPushSource'" --value="'https://push.chocolatey.org/'
+
+      -
         name: Choco pack Standalone-Windows-STIG
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: pack ./Standalone-Windows-STIG/Standalone-Windows-STIG.nuspec configuration=release --outputdirectory ./Standalone-Windows-STIG/
       -
         name: Choco push Standalone-Windows-STIG
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: push ./Standalone-Windows-STIG/standalone-windows-stig.1.0.0.nupkg
       -
         name: Choco pack Standalone-Windows-Server-STIG
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: pack ./Standalone-Windows-Server-STIG/Standalone-Windows-Server-STIG.nuspec configuration=release --outputdirectory ./Standalone-Windows-Server-STIG/
       -
         name: Choco push Standalone-Windows-Server-STIG
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: push ./Standalone-Windows-Server-STIG/standalone-windows-server-STIG.1.0.0.nupkg
       -
         name: Choco pack Windows-Optimize-Debloat
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: pack ./Windows-Optimize-Debloat/Windows-Optimize-Debloat.nuspec configuration=release --outputdirectory ./Windows-Optimize-Debloat/
       -
         name: Choco push Windows-Optimize-Debloat
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: push ./Windows-Optimize-Debloat/windows-optimize-debloat.1.0.0.nupkg
       -
         name: Choco pack Windows-Optimize-Harden-Debloat
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: pack ./Windows-Optimize-Harden-Debloat/Windows-Optimize-Harden-Debloat.nuspec configuration=release --outputdirectory ./Windows-Optimize-Harden-Debloat/
       -
         name: Choco push Windows-Optimize-Harden-Debloat
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: push ./Windows-Optimize-Harden-Debloat/windows-optimize-harden-debloat.1.0.0.nupkg
       -
         name: Choco pack nethor
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: pack ./nethor/nethor.nuspec configuration=release --outputdirectory ./nethor
       -
         name: Choco push nethor
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: push ./nethor/nethor.2022.0.0.nupkg
 
       -
         name: Choco pack VSCode-Remote-Development
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: pack ./VSCode-Remote-Development/vscode-remote-development.nuspec configuration=release --outputdirectory ./VSCode-Remote-Development
       -
         name: Choco push VSCode-Remote-Development
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: push ./vscode-remote-development/vscode-remote-development.0.25.0.nupkg
 
       -
         name: Choco pack nethor
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: pack ./VSCode-Remote-SSH/vscode-remote-ssh.nuspec configuration=release --outputdirectory ./VSCode-Remote-SSH
       -
         name: Choco push nethor
-        uses: crazy-max/ghaction-chocolatey@v2
+        uses: crazy-max/ghaction-chocolatey@v3
         with:
           args: push ./VSCode-Remote-SSH/vscode-remote-ssh.nuspec.0.112.2024051615.nupkg
       # -
       #   name: Choco pack awesomeminer
-      #   uses: crazy-max/ghaction-chocolatey@v2
+      #   uses: crazy-max/ghaction-chocolatey@v3
       #   with:
       #     args: pack ./AwesomeMiner/AwesomeMiner.nuspec configuration=release --outputdirectory ./AwesomeMiner
       # -
       #   name: Choco push awesomeminer
-      #   uses: crazy-max/ghaction-chocolatey@v2
+      #   uses: crazy-max/ghaction-chocolatey@v3
       #   with:
       #     args: push ./AwesomeMiner/awesomeminer.1.0.0.nupkg
       # -
       #   name: Choco pack awesomeminerremoteagent
-      #   uses: crazy-max/ghaction-chocolatey@v2
+      #   uses: crazy-max/ghaction-chocolatey@v3
       #   with:
       #     args: pack ./AwesomeMinerRemoteAgent/AwesomeMinerRemoteAgent.nuspec configuration=release --outputdirectory ./AwesomeMinerRemoteAgent
       # -
       #   name: Choco push awesomeminerremoteagent
-      #   uses: crazy-max/ghaction-chocolatey@v2
+      #   uses: crazy-max/ghaction-chocolatey@v3
       #   with:
       #     args: push ./AwesomeMinerRemoteAgent/awesomeminer-remoteagent.1.0.0.nupkg
           
