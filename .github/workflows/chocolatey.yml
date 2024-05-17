@@ -62,24 +62,46 @@ jobs:
         uses: crazy-max/ghaction-chocolatey@v2
         with:
           args: push ./nethor/nethor.2022.0.0.nupkg
+
       -
-        name: Choco pack awesomeminer
+        name: Choco pack VSCode-Remote-Development
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: pack ./AwesomeMiner/AwesomeMiner.nuspec configuration=release --outputdirectory ./AwesomeMiner
+          args: pack ./VSCode-Remote-Development/vscode-remote-development.nuspec configuration=release --outputdirectory ./VSCode-Remote-Development
       -
-        name: Choco push awesomeminer
+        name: Choco push VSCode-Remote-Development
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push ./AwesomeMiner/awesomeminer.1.0.0.nupkg
+          args: push ./vscode-remote-development/vscode-remote-development.0.25.0.nupkg
+
       -
-        name: Choco pack awesomeminerremoteagent
+        name: Choco pack nethor
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: pack ./AwesomeMinerRemoteAgent/AwesomeMinerRemoteAgent.nuspec configuration=release --outputdirectory ./AwesomeMinerRemoteAgent
+          args: pack ./VSCode-Remote-SSH/vscode-remote-ssh.nuspec configuration=release --outputdirectory ./VSCode-Remote-SSH
       -
-        name: Choco push awesomeminerremoteagent
+        name: Choco push nethor
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: push ./AwesomeMinerRemoteAgent/awesomeminer-remoteagent.1.0.0.nupkg
+          args: push ./VSCode-Remote-SSH/vscode-remote-ssh.nuspec.0.112.2024051615.nupkg
+      # -
+      #   name: Choco pack awesomeminer
+      #   uses: crazy-max/ghaction-chocolatey@v2
+      #   with:
+      #     args: pack ./AwesomeMiner/AwesomeMiner.nuspec configuration=release --outputdirectory ./AwesomeMiner
+      # -
+      #   name: Choco push awesomeminer
+      #   uses: crazy-max/ghaction-chocolatey@v2
+      #   with:
+      #     args: push ./AwesomeMiner/awesomeminer.1.0.0.nupkg
+      # -
+      #   name: Choco pack awesomeminerremoteagent
+      #   uses: crazy-max/ghaction-chocolatey@v2
+      #   with:
+      #     args: pack ./AwesomeMinerRemoteAgent/AwesomeMinerRemoteAgent.nuspec configuration=release --outputdirectory ./AwesomeMinerRemoteAgent
+      # -
+      #   name: Choco push awesomeminerremoteagent
+      #   uses: crazy-max/ghaction-chocolatey@v2
+      #   with:
+      #     args: push ./AwesomeMinerRemoteAgent/awesomeminer-remoteagent.1.0.0.nupkg
           
