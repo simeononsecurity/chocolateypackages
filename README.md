@@ -1,5 +1,8 @@
 # chocolateypackages
- All the chocolatey packages that I maintain
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-Click%20Here-ff69b4)](https://github.com/sponsors/simeononsecurity) 
+
+All the chocolatey packages that I maintain
 
 <a href="https://simeononsecurity.com" target="_blank" rel="noopener noreferrer">
   <h2>Explore the World of Cybersecurity</h2>
